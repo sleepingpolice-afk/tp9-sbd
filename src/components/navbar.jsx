@@ -17,17 +17,17 @@ export default function Navbar() {
             <div className={`${isMenuOpen ? "block" : "hidden"} w-full md:flex md:w-auto md:items-center mt-4 md:mt-0`}>
             <ul className="flex flex-col md:flex-row md:space-x-8 space-y-2 md:space-y-0">
                 <li>
-                <p href="#" className="font-semibold">
+                <p className="font-semibold">
                     Home
                 </p>
                 </li>
                 <li>
-                <p href="#" className="font-semibold">
+                <p className="font-semibold">
                     Profile
                 </p>
                 </li>
                 <li>
-                <p href="#" className="font-semibold">
+                <p className="font-semibold">
                     Contact
                 </p>
                 </li>
